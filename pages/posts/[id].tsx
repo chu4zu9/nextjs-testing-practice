@@ -13,7 +13,7 @@ const PostDetail: React.FC<POST> = ({ id, title, body }) => {
       </p>
       <p className="mb-4 text-xl font-bold">{title}</p>
       <p className="mx-10 mb-12">{body}</p>
-      <Link href="/blog-page">
+      <Link href="/blog-page" passHref>
         <div className="flex cursor-pointer mt-12">
           <svg
             className="w-6 h-6 mr-3"
