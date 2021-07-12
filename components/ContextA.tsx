@@ -17,3 +17,5 @@ const ContextA: React.FC = () => {
     </div>
   )
 }
+
+export default ContextA
